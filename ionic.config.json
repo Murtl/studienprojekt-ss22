@@ -1,0 +1,8 @@
+{
+  "name": "studienprojekt-ss22",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
+

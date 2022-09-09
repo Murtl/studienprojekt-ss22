@@ -1,0 +1,39 @@
+.dashboard-container {
+    height: 100%
+}
+
+.fieldListRow{
+    cursor: pointer;
+}
+
+.fieldListRow:hover {
+    --background: #262626;
+}
+
+@media(prefers-color-scheme: light){
+    .fieldListRow:hover {
+        --background: #f3f3f3;
+    }
+}
+
+.h2 {
+    cursor: pointer;
+}
+
+.h3 {
+    color: #92949c;
+    cursor: pointer;
+}
+
+@media (prefers-color-scheme: light) {
+    .h3 {
+        color: #808289;
+    }
+}
+.exitButtonModal{
+    position: relative;
+}
+
+.exitButtonModal:hover{
+    background-color: red;
+}
