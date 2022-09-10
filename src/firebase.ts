@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth"
 
 const config = {
     firebase_dev: {
-        apiKey: "AIzaSyAzgN_hxhTPmlbOk_TDzKhJnyljNmqtzyk",
+        apiKey: "apiKey",
         authDomain: "studienprojekt-ss22.firebaseapp.com",
         projectId: "studienprojekt-ss22",
         storageBucket: "studienprojekt-ss22.appspot.com",
