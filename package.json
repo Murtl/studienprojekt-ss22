@@ -2,6 +2,7 @@
   "name": "studienprojekt-ss22",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://murtl.github.io",
   "dependencies": {
     "@capacitor/android": "^3.5.0",
     "@capacitor/app": "1.1.1",
@@ -54,7 +55,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -93,6 +96,7 @@
     "@babel/preset-typescript": "^7.16.7",
     "@capacitor/cli": "^3.5.0",
     "@types/react-color": "^3.0.6",
+    "gh-pages": "^4.0.0",
     "jest-junit": "^13.1.0",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0"
