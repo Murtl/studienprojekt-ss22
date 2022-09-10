@@ -32,7 +32,7 @@ const OrderManagement: React.FC<RouteComponentProps> = () => {
     })
 
     useLoadScript({
-        googleMapsApiKey: 'AIzaSyDWC0uPkbBZhW6ISUmnl4-vt_1ZdrSURug',
+        googleMapsApiKey: 'API-Key',
         libraries: googlemapsLibraries
     })
 
