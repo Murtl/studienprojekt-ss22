@@ -31,7 +31,7 @@ const FieldMap: React.FC= () => {
     })
 
     const {isLoaded} = useLoadScript({
-        googleMapsApiKey: 'AIzaSyAzgN_hxhTPmlbOk_TDzKhJnyljNmqtzyk',
+        googleMapsApiKey: 'APi-Key,
         libraries: googlemapsLibraries
     })
 
