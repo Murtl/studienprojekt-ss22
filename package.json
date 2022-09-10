@@ -2,7 +2,7 @@
   "name": "studienprojekt-ss22",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://murtl.github.io/studienprojekt-ss22/",
+  "homepage": "http://murtl.github.io/studienprojekt-ss22",
   "dependencies": {
     "@capacitor/android": "^3.5.0",
     "@capacitor/app": "1.1.1",
@@ -57,7 +57,7 @@
     "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
